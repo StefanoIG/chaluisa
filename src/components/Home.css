@@ -1,0 +1,132 @@
+/* Estilos para la página principal */
+.home body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #ffffff, #ffffff, #ffffff, #ffffff);
+    margin: 0;
+    height: vh;
+    padding: 0;
+
+}
+
+
+.homeheader {
+    background: linear-gradient(150deg, hsl(0, 100%, 88%), #bd0202, #cc0108, #ff8383);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.home .bienvenido {
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+.home .logo img {
+    width: 170px;
+    height: 150px;
+    vertical-align: middle;
+    float: left;
+
+
+}
+
+.home nav {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.home nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.home nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home section {
+    padding: 0px;
+}
+
+
+.home .principal {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.home .contenedor-imagen {
+    position: relative;
+}
+
+
+.home .lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.home .lista li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.home .lista img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+
+.home .lista a:hover {
+    background-color: #003c7c;
+}
+
+.home .contenedor-queofrecemos {
+    position: relative;
+}
+
+
+
+.contenedor-pqelegirnos {
+    position: relative;
+}
+
+p {
+    color: #464646;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.copy {
+
+    color: #c7c6c6;
+
+}

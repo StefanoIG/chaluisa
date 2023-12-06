@@ -1,0 +1,132 @@
+* {
+    color: #000000;
+}
+
+.consulta body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #ffffff, #ffffff, #ffffff, #ffffff);
+    margin: 0;
+    height: vh;
+    padding: 0;
+
+}
+
+
+.consulta header {
+    background: linear-gradient(150deg, hsl(0, 100%, 88%), #bd0202, #cc0108, #ff8383);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.consulta .bienvenido {
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+.consulta .logo img {
+    width: 170px;
+    height: 150px;
+    vertical-align: middle;
+    float: left;
+
+
+}
+
+.consulta nav {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.consulta nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.consulta nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.consulta nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.consulta section {
+    padding: 0px;
+}
+
+
+/* Estilos para las secciones de información general e individual */
+.consulta #general-info,
+#individual-info {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón de consulta */
+.consulta button {
+    background-color: #f91111;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.consulta button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para los resultados */
+.consulta #general-info-result,
+#individual-info-result {
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de selección y entrada de código */
+.consulta select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilos para los títulos */
+.consulta h2,
+h3 {
+    color: #3498db;
+}
+
+/* Estilos para el texto en negrita */
+.consulta b {
+    font-weight: bold;
+}
+
+.consulta footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.consulta .copy {
+
+    color: #c7c6c6;
+
+}
+
+input,
+select {
+    background-color: whitesmoke;
+}

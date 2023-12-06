@@ -1,0 +1,161 @@
+.registro body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #ffffff, #ffffff, #ffffff, #ffffff);
+    margin: 0;
+    height: vh;
+    padding: 0;
+
+}
+
+
+.registro header {
+    background: linear-gradient(150deg, hsl(0, 100%, 88%), #bd0202, #cc0108, #ff8383);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.registro .bienvenido {
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+.registro .logo img {
+    width: 170px;
+    height: 150px;
+    vertical-align: middle;
+    float: left;
+
+
+}
+
+.registro nav {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.registro nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.registro nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.registro nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.registro section {
+    padding: 0px;
+}
+
+.registro #goHomeButton {
+    position: absolute;
+    text-decoration: none;
+    top: 200px;
+    /* Distancia desde la parte superior de la página */
+    left: 10px;
+    /* Distancia desde la izquierda de la página */
+    flex-basis: 40%;
+    min-width: 10px;
+    max-width: 90px;
+    font-size: 15px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.registro .container-registro {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #cbc7c788;
+    padding: 50px;
+    border: 1px solid #817c7c;
+    border-radius: 5px;
+}
+
+.registro .container-registro {
+    margin-top: 100px;
+    /* Ajusta esta distancia según tus necesidades */
+}
+
+.registro .form-group {
+    margin-bottom: 15px;
+}
+
+.registro .label {
+    display: block;
+    font-weight: bold;
+}
+
+.registro .input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #6a6464;
+    border-radius: 5px;
+
+}
+
+.registro input[type="submit"] {
+    background-color: #ff0000;
+    /* Cambia #ff0000 al color que desees */
+    color: #fff;
+    /* Cambia #fff al color del texto deseado */
+    padding: 10px 20px;
+    font-size: 18px;
+    /* Ajusta el padding según tus preferencias */
+    border: none;
+    cursor: pointer;
+}
+
+.registro input[type="submit"]:hover {
+    background-color: #ff6666;
+    /* Cambia al color deseado cuando el cursor esté sobre el botón */
+}
+
+
+.registro button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registro .error {
+    color: #FF0000;
+}
+
+.registro .footer-registro {
+    margin-top: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.registro .copy {
+
+    color: #c7c6c6;
+
+}
+
+.registro {
+    color: #000000;
+}
