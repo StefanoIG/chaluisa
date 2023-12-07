@@ -55,7 +55,7 @@ function Registro() {
 
     toast.success('Registrado correctamente', { position: 'top-right', autoClose: 4000 });
     setTimeout(() => {
-      window.location.href = '/Login';
+          nav('/Login');
     }, 4000);
   };
 
